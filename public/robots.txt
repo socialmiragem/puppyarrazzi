@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Allow access to all public content
+Allow: /services/
+Allow: /blog/
+Allow: /guides/
+
+# Sitemap location
+Sitemap: https://puppyarazzi.com/sitemap.xml
