@@ -8,6 +8,7 @@ import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { MetaPixel } from "@/lib/MetaPixel"
 import "./globals.css"
+import { Mouseflow } from "@/lib/Mouseflow"
 
 const inter = Inter({
   subsets: ["latin"],
@@ -100,7 +101,7 @@ export default function RootLayout({
         <HashScrollHandler />
         <Header />
         <MetaPixel/>
-
+        <Mouseflow />
         <Suspense fallback={null}>{children}</Suspense>
         <Footer />
       </body>
