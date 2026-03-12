@@ -98,8 +98,8 @@ export default function RootLayout({
     <html lang="en" className={`${inter.variable} antialiased`}>
       <body className="font-sans overflow-x-hidden">
         <AdditionalHeadElements />
-        <Mouseflow />
         <HashScrollHandler />
+        <Mouseflow/>
         <Header />
         <MetaPixel/>
         <Suspense fallback={null}>{children}</Suspense>
